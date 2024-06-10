@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "popins", sans-serif;
+  box-sizing: border-box;
+}
+.section1{
+  color: white;
+}
+.section2{
+  color: rgba(0,0,0,0.56);
+  font-size: small;
+}
+h1 {
+  margin-bottom: 5px;
+}
+.darkapple {
+  color: black;
+}
+.whiteapple {
+  color: rgb(255, 255, 255);
+}
+.navbar {
+  background-color: rgba(29, 29, 29, 0.7);
+  font-size: small;
+  padding: 13px 30px 27px 63px;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  
+}
+.navbar a {
+  margin-left: 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(255, 255, 255,0.7);
+}
+.a1 {
+  height: 600px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  padding-top: 50px;
+  text-align: center;
+  border-bottom: 10px solid white;
+}
+.lm {
+  color: white;
+  background-color: blue;
+  padding: 10px 20px 10px 20px;
+  border-radius: 34px;
+  border: none;
+  margin-top: 15px;
+  font-size: 17px;
+}
+.a2 {
+  height: 500px;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  padding-top: 50px;
+  background-image: url(images/iphone15pro.png);
+  background-position: 0 5;
+  background-size: cover;
+  border-bottom: 10px solid white;
+}
+.buy {
+  color: white;
+  border: 2px solid blue;
+  padding: 10px 15px 10px 15px;
+  background-color: black;
+  margin-left: 6px;
+  margin-top: 15px;
+  border-radius: 30px;
+  font-size: 17px;
+}
+.buy:hover {
+  background-color: blue;
+}
+
+.a3 {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 23px;
+  border-bottom: 5px solid white;
+}
+.a3 img {
+  margin-top: 23px;
+}
+.a4one {
+  display: flex;
+}
+.a4two {
+  display: flex;
+}
+.a41 {
+  height: 500px;
+  width: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+    url(/images/stu1.jpg);
+  background-size: 0 7;
+  background-position: center;
+  border: 6px solid white;
+  text-align: center;
+  padding-top: 300px;
+}
+.a42 {
+  height: 500px;
+  width: 50%;
+  background-color: #04e0d5;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(/images/watch1.png);
+  background-size: cover;
+  background-position: center;
+  border: 5px solid white;
+  text-align: center;
+  padding-top: 40px;
+  line-height: 24px;
+}
+.a43 {
+  height: 500px;
+  width: 50%;
+  background-color: rgb(233, 25, 25);
+  border: 5px solid white;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
+    url(/images/vision\ 23\ [60227D8].png);
+  background-position: 0 20;
+  background-size: cover;
+  padding-top: 337px;
+}
+.a44 {
+  height: 500px;
+  width: 50%;
+  background-image: url(/images/award2\ [8AC4989].png);
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+  border: 5px solid white;
+  text-align: center;
+  padding-top: 40px;
+  line-height: normal;
+}
+.a5 {
+  background-color: #ffffff;
+   overflow: hidden;
+   white-space: nowrap;
+   box-sizing: border-box;
+
+
+}
+.a5 img{
+    height: 250px;
+    width: 400px;
+    border: 5px solid rgb(255, 255, 255);
+}
+.foot{
+  
+  height: 400px;
+  width:100%;
+  margin-top: 50px;
+  background-color: rgb(228, 228, 228);
+}
+.fpara{
+  width: 1135px;
+  text-align: justify;
+  margin-left: 117px;
+  padding-top: 35px;
+  line-height: 19px;
+}
+.footer1{
+  display: flex;
+  flex-direction: row;
+}
+.ls1{
+  margin-left: 117px;
+  font-size: small;
+  line-height:19px ;
+  margin-top: 20px;
+ 
+}
+dt{
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+}
+
+dd{
+  color: rgba(0,0,0,0.56);
+}
+.ls2{
+  font-size: small;
+  line-height: 19px;
+  margin-top: 20px;
+  margin-left: 23px;
+}
+.footer2{
+  width: 1135px;
+  margin-left: 117px;
+  margin-top: 20px;
+}
+span{
+  color: rgba(0,0,0,0.56);
+  font-size: small;
+  padding-right: 9px;
+}
+#us{
+  padding-left: 352px;
+}

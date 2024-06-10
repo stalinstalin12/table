@@ -1,0 +1,55 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="4">Seminar</th></tr>
+           <tr> <th colspan="2">Schedule</th>
+            <th colspan="2" rowspan="2">Topic</th></tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2" style="background-color: rgb(247, 221, 190);">8:00 a.m</td>
+                <td rowspan="2" style="background-color: rgb(238, 214, 235);">5:00 p.m</td>
+                <td>Introduction to XML</td><tr>
+                <td>Validity: DTD and relax NG</td></tr>
+            </tr>
+            <tr>
+                <td rowspan="4">Tuesday</td>
+                <td style="background-color: rgb(250, 220, 182);">8:00 a.m</td>
+                <td style="background-color: rgb(247, 221, 190);">11:00 p.m</td>
+                <td id="t1">Xpath</td></tr>
+                <tr>
+                    <td style="background-color: rgb(247, 221, 190);">11:00 a.m</td>
+                    <td style="background-color: rgb(190, 247, 214);">2:00 p.m</td>
+                    <td rowspan="2" id="t2">XSL transformations</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(190, 247, 214);">2:00 p.m</td>
+                    <td style="background-color: rgb(238, 214, 235);">5:00 p.m</td>
+                   
+                </tr>
+                <tfoot>
+            <tr>
+                <td>Wednesday</td>
+                <td rowspan="1" style="background-color: rgb(247, 221, 190);">8:00 a.m</td>
+                <td rowspan="1" style="background-color: rgb(190, 247, 214);">12:00 p.m</td>
+                <td>XSL Formatting Objects</td>
+            </tr></tfoot>
+        </tbody>
+    </table>
+    
+</body>
+</html>
